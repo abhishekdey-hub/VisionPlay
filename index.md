@@ -1,13 +1,17 @@
 ---
-title: VisionPlay - Accessibility Hub
+layout: default
+title: Home - VisionPlay
 description: Accessibility related software to meet special needs of visually impaired and blind people.
 keywords: accessibility, visually impaired, games, screen readers, tts, Android
 language: en
 ---
 
+# VisionPlay
+
+Accessibility related software to meet special needs of visually impaired and blind people.
+
 ## VisionPlay Main Menu
 
-- [Games](games/index.md)
-- [Screen Readers](screen-readers/index.md)
-- [TTS (Text-to-Speech)](tts/index.md)
-- [Back to Main Homepage](../index.html)
+* [Games](games/) - Download accessible games for Android and other platforms.
+* [Screen Readers](screen-readers/) - Explore the best screen readers for your device.
+* [TTS (Text-to-Speech)](tts/) - Find natural-sounding text-to-speech engines.
