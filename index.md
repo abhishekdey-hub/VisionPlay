@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Home - VisionPlay
 description: Accessibility related software to meet special needs of visually impaired and blind people.
 keywords: accessibility, visually impaired, games, screen readers, tts, Android
