@@ -5,8 +5,6 @@ keywords: accessibility, visually impaired, games, screen readers, tts, Android
 language: en
 ---
 
-# VisionPlay
-
 Accessibility related software to meet special needs of visually impaired and blind people.
 
 ## VisionPlay Main Menu
