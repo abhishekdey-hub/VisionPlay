@@ -1,0 +1,16 @@
+title: VisionPlay
+description: Accessibility related software to meet special needs of visually impaired and blind people.
+lang: en-US
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+theme: jekyll-theme-minimal
+
+baseurl: "/VisionPlay"
+url: "https://abhishekdey-hub.github.io"
+
+plugins:
+  - jekyll-seo-tag
