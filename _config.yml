@@ -1,8 +1,13 @@
+title: VisionPlay
+description: Accessibility related software to meet special needs of visually impaired and blind people.
+lang: en-US
+
+markdown: kramdown
 kramdown:
+  input: GFM
+  hard_wrap: false
   transliterated_header_ids: true
   toc_levels: 2..6
-
-theme: jekyll-theme-leap-day
 
 plugins:
   - jekyll-sitemap
