@@ -14,4 +14,4 @@ Accessibility related software to meet special needs of visually impaired and bl
 
 * [Games](games/) - Download accessible games for Android and other platforms.
 * [Screen Readers](screen-readers/) - Explore the best screen readers for your device.
-* [TTS (Text-to-Speech)](tts/) - Find natural-sounding text-to-speech engines.
+* [TTS (text-to-speech)](tts/) - Find natural-sounding text-to-speech engines.
