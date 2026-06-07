@@ -1,56 +1,36 @@
 ---
 layout: default
 title: Accessible Games - VisionPlay
-description: Download fully accessible games designed for visually impaired and blind users.
-keywords: accessible games, blind games, audio games, visionplay, apk download
+description: Download high-quality accessible games and audio games specially designed for blind and visually impaired players.
+keywords: accessible games, blind games, audio games, android games, talkback games, VisionPlay
+language: en
 ---
 
-# [VisionPlay](../) > Accessible Games
+## VisionPlay > Accessible Games
+[Home](../)
 
-Welcome to the Games section. Here you can find and download games specifically designed or optimized for visually impaired and blind players. All apps are safe and include direct download links.
-
----
-
-## 1. Blind Drive
-An audio-based arcade driving game where you drive by sound alone. Perfect for training auditory localization.
-
-* **Version:** 1.2.5
-* **Size:** 45 MB
-* **Platform:** Android
-* **Developer:** Lo-Fi People
-
-👉 [Download Direct APK](https://example.com/downloads/blind-drive.apk) | [View on Play Store](https://play.google.com/store)
+Welcome to the Games section. Here you can find and download software specifically designed or optimized for visually impaired and blind players.
 
 ---
 
-## 2. Audio Game Hub
-A collection of experimental audiogames that use audio as their primary interface—making them accessible for both sighted and non-sighted users.
+### 1. Blind Drive
+An audio-based arcade driving game where you drive by sound alone, featuring full voice-acting and realistic sound effects.
 
-* **Version:** 2.1.0
-* **Size:** 68 MB
-* **Platform:** Android
-* **Developer:** Sonar Interactive
-
-👉 [Download Direct APK](https://example.com/downloads/audio-game-hub.apk) | [View on Play Store](https://play.google.com/store)
+* [Download Direct APK](https://example.com/downloads/blind-drive.apk)
+* [View on Play Store](https://play.google.com/store/apps/details?v=com.lofigames.blinddrive)
 
 ---
 
-## 3. Timecrest
-A text-based, accessible interactive fiction game with rich storytelling and full screen-reader support.
+### 2. Audio Game Hub
+A unique collection of experimental audiogames that use audio as their primary interface, making them fully accessible.
 
-* **Version:** 3.0.2
-* **Size:** 25 MB
-* **Platform:** Android / iOS
-* **Developer:** Sneaky Crab
-
-👉 [Download Direct APK](https://example.com/downloads/timecrest.apk)
+* [Download Direct APK](https://example.com/downloads/audio-game-hub.apk)
+* [View on Play Store](https://play.google.com/store/apps/details?v=com.sonnar.audiogamehub)
 
 ---
 
-### 💡 How to Install APKs on Android:
-1. Click the **Download Direct APK** link above.
-2. Once downloaded, open the `.apk` file.
-3. If prompted, enable **"Allow installation from unknown sources"** in your device settings.
-4. Tap **Install** and enjoy!
+### 3. Blind Cricket
+A fully accessible cricket game designed for blind players where you have to judge the ball completely by its sound.
 
-[← Back to Main Menu](../)
+* [Download Direct APK](https://example.com/downloads/blind-cricket.apk)
+* [View on Play Store](https://play.google.com/store)
