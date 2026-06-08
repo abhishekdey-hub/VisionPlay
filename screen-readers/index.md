@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VisionPlay - Screen Readers
+title: Screen Readers - VisionPlay
 description: Download and explore the best screen reading software and accessibility suites for blind and visually impaired users.
 keywords: screen readers, talkback, jieshuo, accessibility tools, android screen reader, blind software, VisionPlay
 language: en
@@ -30,6 +30,8 @@ Screen reader and smart navigation for blind and visually impaired users.
 ### 3. Jieshuo+
 An advanced and highly customizable version of the Commentary Screen Reader with premium multi-language extensions.
 
+* **File Size:** 59.4 MB
+* **APK Version:** 2026.04.17
 * [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260417/jieshuo-20260417.apk)
 
 ---
@@ -37,6 +39,8 @@ An advanced and highly customizable version of the Commentary Screen Reader with
 ### 4. Jieshuo Lite
 A lightweight version of the Jieshuo screen reader, optimized for low-end Android devices to ensure smooth performance.
 
+* **File Size:** 17.4 MB
+* **APK Version:** 2026.04.17
 * [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260417/jieshuo-lite-20260417.apk)
 
 ---
@@ -44,6 +48,8 @@ A lightweight version of the Jieshuo screen reader, optimized for low-end Androi
 ### 5. Jieshuo Max
 The ultimate, full-featured edition of the Jieshuo screen reader, packed with all advanced tools and sound schemes.
 
+* **File Size:** 155 MB
+* **APK Version:** 2026.04.17
 * [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260417/jieshuo-max-20260417.apk)
 
 ---
