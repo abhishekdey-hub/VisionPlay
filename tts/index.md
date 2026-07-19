@@ -6,7 +6,7 @@ keywords: tts, text to speech, autotts, multitts, smartvoice, vocalizer, google 
 language: en
 ---
 
-## VisionPlay > Text-to-Speech Engines
+## VisionPlay - Text-to-Speech Engines
 [Home](../)
 
 Welcome to the TTS section. Here you can find and download natural-sounding text-to-speech voice engines to use with your screen readers.
