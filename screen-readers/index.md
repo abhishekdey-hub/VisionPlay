@@ -20,14 +20,21 @@ Includes TalkBack, Accessibility menu and more.
 
 ---
 
-### 2. Ferda screen reader
+### 2. duy gör ekran okuyucu (HearSee Screen Reader)
+hear see screen reader accessibility tool.
+
+* [View on Play Store](https://play.google.com/store/apps/details?id=com.eray_bolat.hs_screen_reader)
+
+---
+
+### 3. Ferda screen reader
 Screen reader and smart navigation for blind and visually impaired users.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.ferda.md)
 
 ---
 
-### 3. Jieshuo+
+### 4. Jieshuo+
 An advanced and highly customizable version of the Commentary Screen Reader with premium multi-language extensions.
 
 * **File Size:** 60 MB
@@ -36,7 +43,7 @@ An advanced and highly customizable version of the Commentary Screen Reader with
 
 ---
 
-### 4. Jieshuo Lite
+### 5. Jieshuo Lite
 A lightweight version of the Jieshuo screen reader, optimized for low-end Android devices to ensure smooth performance.
 
 * **File Size:** 18 MB
@@ -45,7 +52,7 @@ A lightweight version of the Jieshuo screen reader, optimized for low-end Androi
 
 ---
 
-### 5. Jieshuo Max
+### 6. Jieshuo Max
 The ultimate, full-featured edition of the Jieshuo screen reader, packed with all advanced tools and sound schemes.
 
 * **File Size:** 155 MB
@@ -54,14 +61,14 @@ The ultimate, full-featured edition of the Jieshuo screen reader, packed with al
 
 ---
 
-### 6. Prudence Screen Reader
+### 7. Prudence Screen Reader
 An accessibility tool for helping visually impaired people using Android phones.
 
 * [View on Play store](https://play.google.com/store/apps/details?id=com.prudence.reader)
 
 ---
 
-### 7. Talk Forward
+### 8. Talk Forward
 Powerful screen reader: custom gestures, braille, AI image descriptions & more
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=eu.appsuite.talkforward)
