@@ -14,11 +14,13 @@ The applications and tools available on this platform are carefully collected fr
 
 ---
 
-## VisionPlay Main Menu
+## Explore Categories
 
-* [Games](games/) - Download accessible games for Android and other platforms.
-* [Screen Readers](screen-readers/) - Explore the best screen readers for your device.
-* [TTS (Text-To-Speech)](tts/) - Find natural-sounding text-to-speech engines.
+* **Quick Overview:** 3 Categories | 22+ Accessible Apps
+
+* [Games](games/)
+* [Screen Readers](screen-readers/)
+* [TTS (Text-To-Speech)](tts/)
 
 ---
 
