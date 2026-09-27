@@ -11,6 +11,8 @@ language: en
 
 Welcome to the Screen Readers section. Here you can find and download popular screen reading software and accessibility suites for your devices.
 
+> **Total Available:** 8 Screen Readers
+
 ---
 
 ### 1. Android Accessibility Suite (TalkBack)
@@ -20,8 +22,8 @@ Includes TalkBack, Accessibility menu and more.
 
 ---
 
-### 2. duy gör ekran okuyucu (HearSee Screen Reader)
-hear see screen reader accessibility tool.
+### 2. Duy Gör Ekran Okuyucu (HearSee Screen Reader)
+HearSee screen reader and accessibility tool for blind and visually impaired users.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.eray_bolat.hs_screen_reader)
 
@@ -38,8 +40,8 @@ Screen reader and smart navigation for blind and visually impaired users.
 An advanced and highly customizable version of the Commentary Screen Reader with premium multi-language extensions.
 
 * **File Size:** 60 MB
-* **APK Version:** 2026.06.18
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260618/jieshuo-20260618.apk)
+* **APK Version:** 2026.08.21
+* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260821/jieshuo-20260821.apk)
 
 ---
 
@@ -47,8 +49,8 @@ An advanced and highly customizable version of the Commentary Screen Reader with
 A lightweight version of the Jieshuo screen reader, optimized for low-end Android devices to ensure smooth performance.
 
 * **File Size:** 18 MB
-* **APK Version:** 2026.06.18
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260618/jieshuo-lite-20260618.apk)
+* **APK Version:** 2026.08.21
+* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260821/jieshuo-lite-20260821.apk)
 
 ---
 
@@ -56,8 +58,8 @@ A lightweight version of the Jieshuo screen reader, optimized for low-end Androi
 The ultimate, full-featured edition of the Jieshuo screen reader, packed with all advanced tools and sound schemes.
 
 * **File Size:** 155 MB
-* **APK Version:** 2026.06.18
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260618/jieshuo-max-20260618.apk)
+* **APK Version:** 2026.08.21
+* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20260821/jieshuo-max-20260821.apk)
 
 ---
 
