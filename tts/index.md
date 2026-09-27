@@ -11,6 +11,8 @@ language: en
 
 Welcome to the TTS section. Here you can find and download natural-sounding text-to-speech voice engines to use with your screen readers.
 
+> **Total Available:** 12 TTS Engines
+
 ---
 
 ### 1. Acapela TTS Voices
@@ -79,27 +81,21 @@ A free, fast, and open-source speech synthesizer that works flawlessly on low-en
 ---
 
 ### 10. SmartVoice
-​🎙️ SmartVoice Speech Synthesizer
-​SmartVoice is a feature-rich, high-performance Text-to-Speech (TTS) engine designed for Android devices, providing accurate real-time voice rendering and advanced automatic language switching capabilities.
-​✨ Core Functionality & Features
-​🌐 Automatic Language Detection & Switching
-Identifies input text and automatically selects the corresponding voice. It natively supports automatic language detection for 22 languages, including English, Bengali, Hindi, Arabic, French, German, Spanish, Russian, Chinese, Japanese, and more.
-​🎛️ Per-Voice Audio Controls
-Allows independent tuning for every voice profile. Parameters such as Volume, Speech Rate, and Pitch can be configured separately for individual voices.
-​😀 Emoji Recognition & Dedicated Voice
-Detects emojis embedded within text lines and reads them aloud. Includes an option to assign a separate designated voice strictly for emoji pronunciation.
-​🧩 Intelligent Text Parsing & Markup
-Processes mixed-language content by breaking down sentences into monolingual fragments, assigning appropriate voice models to each section, or reading full messages based on customizable priority rules and character set groups (Latinic, Cyrillic, CJK, etc.).
-​🔢 Custom Number Pronunciation
-Features specific text-processing rules for numerical data, allowing users to route number reading to a preferred designated voice.
-​⚡ Quick-Access Main Interface & Notification Widget
-Provides a main user interface and an optional active notification panel widget for instant manual voice switching, on-the-fly override adjustments, and quick access to individual voice settings via long-press menus.
-​🌍 Multilingual User Interface
-The app UI supports 20+ languages, allowing full navigation in English, Spanish, German, French, Arabic, Chinese, Russian, and various other locales.
-​⚙️ Technical Specifications
-​Operating System: Android 4.4 or higher.
-​Built-in Voices: Pre-packed with embedded voices for English (US/UK), French, German, Italian, Russian, and Spanish.
-​External Voice Compatibility: Fully supports integration with third-party voice packages, such as Vocalizer Expressive v2.
+SmartVoice is a feature-rich, high-performance Text-to-Speech (TTS) engine designed for Android devices, providing accurate real-time voice rendering and advanced automatic language switching capabilities.
+
+#### Core Functionality & Features:
+* **Automatic Language Detection & Switching:** Identifies input text and automatically selects the corresponding voice. Supports 22 languages including English, Bengali, Hindi, Arabic, French, German, Spanish, Russian, Chinese, Japanese, and more.
+* **Per-Voice Audio Controls:** Independent tuning for volume, speech rate, and pitch for individual voice profiles.
+* **Emoji Recognition & Dedicated Voice:** Detects emojis embedded within text lines and reads them aloud, with an option to assign a dedicated voice.
+* **Intelligent Text Parsing & Markup:** Breaks mixed-language text into monolingual fragments and routes sentences according to user priority rules.
+* **Custom Number Pronunciation:** Specific routing rules for reading numerical data with designated voices.
+* **Quick-Access Interface & Notification Widget:** Handy notification panel widget for on-the-fly voice switches and parameter overrides.
+* **Multilingual UI:** App interface supports 20+ navigation languages.
+
+#### Technical Specifications:
+* **Operating System:** Android 4.4 or higher.
+* **Built-in Voices:** Pre-packed with embedded voices for English (US/UK), French, German, Italian, Russian, and Spanish.
+* **External Voice Compatibility:** Fully supports third-party packages such as Vocalizer Expressive v2.
 
 * **File Size:** 23 MB
 * **APK Version:** 4.1.16
