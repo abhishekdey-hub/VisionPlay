@@ -11,6 +11,8 @@ language: en
 
 Welcome to the Games section. Here you can find and download software specifically designed or optimized for visually impaired and blind players.
 
+> **Total Available:** 10 Games
+
 ---
 
 ### 1. Accessible Memory Game
