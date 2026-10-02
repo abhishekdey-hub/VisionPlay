@@ -2,7 +2,7 @@
 layout: default
 title: VisionPlay - Text-to-Speech (TTS)
 description: Download high-quality, natural-sounding text-to-speech voice engines for your screen readers.
-keywords: tts, text to speech, autotts, multitts, smartvoice, vocalizer, google tts, voice engine, VisionPlay
+keywords: tts, text to speech, autotts, multitts, smartvoice, vajra tts, vocalizer, google tts, voice engine, VisionPlay
 language: en
 ---
 
@@ -11,7 +11,7 @@ language: en
 
 Welcome to the TTS section. Here you can find and download natural-sounding text-to-speech voice engines to use with your screen readers.
 
-> **Total Available:** 12 TTS Engines
+> **Total Available:** 13 TTS Engines
 
 ---
 
@@ -111,7 +111,14 @@ The official, built-in Google engine that powers TalkBack and many other daily a
 
 ---
 
-### 12. Vocalizer Voices
+### 12. Vajra TTS
+High-speed multilingual Text-to-Speech engine and smart accessibility hub.
+
+* [View on Play Store](https://play.google.com/store/apps/details?id=com.techassistantforblind.vajratts)
+
+---
+
+### 13. Vocalizer Voices
 High-quality, human-sounding portfolio of voices across major languages around the world.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=es.codefactory.vocalizertts)
