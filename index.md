@@ -16,7 +16,7 @@ The applications and tools available on this platform are carefully collected fr
 
 ## Explore Categories
 
-* **Quick Overview:** 3 Categories | 22+ Accessible Apps
+* **Quick Overview:** 3 Categories | 23+ Accessible Apps
 
 * [Games](games/)
 * [Screen Readers](screen-readers/)
