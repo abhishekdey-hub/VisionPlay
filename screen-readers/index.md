@@ -40,8 +40,8 @@ Screen reader and smart navigation for blind and visually impaired users.
 An advanced and highly customizable version of the Commentary Screen Reader with premium multi-language extensions.
 
 * **File Size:** 62 MB
-* **APK Version:** 2026.10.01
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261001/jieshuo-20261001.apk)
+* **APK Version:** 2026.10.08
+* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-20261008.apk)
 
 ---
 
@@ -49,8 +49,8 @@ An advanced and highly customizable version of the Commentary Screen Reader with
 A lightweight version of the Jieshuo screen reader, optimized for low-end Android devices to ensure smooth performance.
 
 * **File Size:** 20 MB
-* **APK Version:** 2026.10.01
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261001/jieshuo-lite-20261001.apk)
+* **APK Version:** 2026.10.08
+* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-lite-20261008.apk)
 
 ---
 
@@ -58,8 +58,8 @@ A lightweight version of the Jieshuo screen reader, optimized for low-end Androi
 The ultimate, full-featured edition of the Jieshuo screen reader, packed with all advanced tools and sound schemes.
 
 * **File Size:** 176 MB
-* **APK Version:** 2026.10.01
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261001/jieshuo-max-20261001.apk)
+* **APK Version:** 2026.10.08
+* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-max-20261008.apk)
 
 ---
 
