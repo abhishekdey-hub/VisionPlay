@@ -100,7 +100,7 @@ SmartVoice is a feature-rich, high-performance Text-to-Speech (TTS) engine desig
 * **File Size:** 23 MB
 * **APK Version:** 4.1.16
 * [Download Direct APK](https://www.dropbox.com/scl/fi/ougbd7w18z7n8ye2jell6/SmartVoice_V_4.1.16.apk?rlkey=h0tvo8xo6de2hdjclyftnmq82&st=ubk9mamu&dl=1)
-* [Download VocalizerEx2 voices data folder 552 MB](https://www.dropbox.com/scl/fi/mjmto6kbw9jzyhg4z100e/VocalizerEx2.zip?rlkey=7ucckow5u2iior2lxvnw0oqby&st=dcpwuz2a&dl=0)
+* [Download VocalizerEx2 voices data folder 552 MB](https://www.dropbox.com/scl/fi/mjmto6kbw9jzyhg4z100e/VocalizerEx2.zip?rlkey=7ucckow5u2iior2lxvnw0oqby&st=dcpwuz2a&dl=1)
 
 ---
 
