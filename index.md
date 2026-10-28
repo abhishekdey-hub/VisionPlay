@@ -2,7 +2,7 @@
 layout: default
 title: VisionPlay - Home
 description: Accessibility related software to meet special needs of visually impaired and blind people.
-keywords: accessibility, visually impaired, games, screen readers, tts, Android
+keywords: accessibility, visually impaired, games, screen readers, tts, ocr, tools, vision, Android
 language: en
 ---
 
@@ -16,11 +16,14 @@ The applications and tools available on this platform are carefully collected fr
 
 ## Explore Categories
 
-* **Quick Overview:** 3 Categories | 23+ Accessible Apps
+* **Quick Overview:** 6 Categories | 45+ Accessible Apps
 
 * [Games](games/)
+* [OCR](optical-character-recognition/)
 * [Screen Readers](screen-readers/)
-* [TTS (Text-To-Speech)](tts/)
+* [Tools](tools/)
+* [TTS](text-to-speech/)
+* [Vision](vision/)
 
 ---
 
