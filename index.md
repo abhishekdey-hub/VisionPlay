@@ -16,7 +16,7 @@ The applications and tools available on this platform are carefully collected fr
 
 ## Explore Categories
 
-* **Quick Overview:** 6 Categories | 45+ Accessible Apps
+* **Quick Overview:** 6 Categories | 100+ Accessible Apps
 
 * [Games](games/)
 * [OCR](optical-character-recognition/)
