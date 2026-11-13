@@ -22,17 +22,17 @@ A clean document scanning utility useful for capturing sharp page images to feed
 
 ---
 
-### 2. Kibo: Scan, Listen, Translate
+### 2. Kibo: Accessibility for all
 An inclusive document and book reading tool supporting multiple regional languages, allowing blind users to scan printed pages or digital PDFs.
 
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.trestle.kibo)
+* [View on Play Store](https://play.google.com/store/apps/details?id=com.trestle.labs.kibo)
 
 ---
 
-### 3. Lookout by Google
+### 3. Lookout - Assisted vision
 Google's official computer vision and OCR tool designed for reading documents, packaging text, paper currency, and labels using real-time audio guidance.
 
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor)
+* [View on Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal)
 
 ---
 
