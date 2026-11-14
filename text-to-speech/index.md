@@ -2,7 +2,7 @@
 layout: default
 title: VisionPlay - Text-to-Speech (TTS)
 description: Download high-quality, natural-sounding text-to-speech voice engines for your screen readers.
-keywords: tts, text to speech, autotts, multitts, smartvoice, vachan tts, vajra tts, vocalizer, google tts, voice engine, VisionPlay
+keywords: tts, text to speech, autotts, easy voice tts, multitts, smartvoice, vachan tts, vajra tts, vocalizer, google tts, voice engine, VisionPlay
 language: en
 ---
 
@@ -11,7 +11,7 @@ language: en
 
 Welcome to the TTS section. Here you can find and download natural-sounding text-to-speech voice engines to use with your screen readers.
 
-> **Total Available:** 14 TTS Engines
+> **Total Available:** 15 TTS Engines
 
 ---
 
@@ -36,35 +36,42 @@ An advanced speech synthesis application providing expressive and clear voices f
 
 ---
 
-### 4. Eloquence TTS
+### 4. Easy voice TTS - autoswitcher
+An accessible, Smart, and fully stable TTS engine routing application for blind
+
+* [View on Play Store](https://play.google.com/store/apps/details?id=com.sachinbaria.easyvoice)
+
+---
+
+### 5. Eloquence TTS
 The classic, highly responsive, and popular synthesizer preferred by many screen reader users.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.codefactoryglobal.eloquencetts)
 
 ---
 
-### 5. eSpeak NG
+### 6. eSpeak NG
 A compact and open-source software speech synthesizer that supports a very large number of languages.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.redzoc.ramees.tts.espeak)
 
 ---
 
-### 6. Indic Hear2Read
+### 7. Indic Hear2Read
 Text-to-Speech engines specifically optimized for various Indian regional languages.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=org.hear2read.indic)
 
 ---
 
-### 7. Multilingual TTS
+### 8. Multilingual TTS
 A handy accessibility tool designed to easily read out text containing multiple languages.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.intu.multilingualtts)
 
 ---
 
-### 8. MultiTTS
+### 9. MultiTTS
 An exceptional TTS tool that allows you to assign different voice engines for different languages simultaneously.
 
 * **File Size:** 110 MB
@@ -73,42 +80,42 @@ An exceptional TTS tool that allows you to assign different voice engines for di
 
 ---
 
-### 9. RHVoice
+### 10. RHVoice
 A free, fast, and open-source speech synthesizer that works flawlessly on low-end devices.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android)
 
 ---
 
-### 10. Smartvoice
+### 11. Smartvoice
 Multilingual speech sinthesizer and TTS engines aggregator for Android that can automatically recognize input text language by its nature and choose an appropriate voice to pronounce it.
 
 * [Download Direct APK](https://github.com/poretsky/SmartVoice5/releases/download/v5.1.2/SmartVoice-5.1.2.apk)
 
 ---
 
-### 11. Speech Recognition and Synthesis from Google
+### 12. Speech Recognition and Synthesis from Google
 The official, built-in Google engine that powers TalkBack and many other daily applications.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.google.android.tts)
 
 ---
 
-### 12. Vachan Text to Speech
+### 13. Vachan Text to Speech
 Vachan Text to Speech is a very powerful text to speech for TalkBack users.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.vachantexttospeach)
 
 ---
 
-### 13. Vajra TTS
+### 14. Vajra TTS
 High-speed multilingual Text-to-Speech engine and smart accessibility hub.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.techassistantforblind.vajratts)
 
 ---
 
-### 14. Vocalizer Voices
+### 15. Vocalizer Voices
 High-quality, human-sounding portfolio of voices across major languages around the world.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=es.codefactory.vocalizertts)
