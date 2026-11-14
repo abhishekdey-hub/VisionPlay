@@ -2,7 +2,7 @@
 layout: default
 title: VisionPlay - Text-to-Speech (TTS)
 description: Download high-quality, natural-sounding text-to-speech voice engines for your screen readers.
-keywords: tts, text to speech, autotts, easy voice tts, multitts, smartvoice, vachan tts, vajra tts, vocalizer, google tts, voice engine, VisionPlay
+keywords: tts, text to speech, autotts, easy voice tts, multitts, parroglott, smartvoice, vachan tts, vajra tts, vocalizer, google tts, voice engine, VisionPlay
 language: en
 ---
 
@@ -11,7 +11,7 @@ language: en
 
 Welcome to the TTS section. Here you can find and download natural-sounding text-to-speech voice engines to use with your screen readers.
 
-> **Total Available:** 15 TTS Engines
+> **Total Available:** 16 TTS Engines
 
 ---
 
@@ -80,42 +80,49 @@ An exceptional TTS tool that allows you to assign different voice engines for di
 
 ---
 
-### 10. RHVoice
+### 10. Parroglott
+An Android text-to-speech engine that speaks with the Ivona voices Amazon ships for its Fire tablets: the classic Ivona voices plenty of us grew up with, like Jacek, Ewa, Maja, Joey and Brian, and the small neural voices Amazon made for VoiceView in 2025, like Ola, Salli and Amy. Joanna comes along from Amazon's Kindle e-readers. That's 65 voices in 29 languages. It works with TalkBack, its forks such as Sandfly, and anything else that uses Android's speech settings.
+
+* [Download Direct APK](https://github.com/Mudb0y/Parroglott/releases/download/v0.3.0/Parroglott-0.3.0.apk)
+
+---
+
+### 11. RHVoice
 A free, fast, and open-source speech synthesizer that works flawlessly on low-end devices.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android)
 
 ---
 
-### 11. Smartvoice
+### 12. Smartvoice
 Multilingual speech sinthesizer and TTS engines aggregator for Android that can automatically recognize input text language by its nature and choose an appropriate voice to pronounce it.
 
 * [Download Direct APK](https://github.com/poretsky/SmartVoice5/releases/download/v5.1.2/SmartVoice-5.1.2.apk)
 
 ---
 
-### 12. Speech Recognition and Synthesis from Google
+### 13. Speech Recognition and Synthesis from Google
 The official, built-in Google engine that powers TalkBack and many other daily applications.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.google.android.tts)
 
 ---
 
-### 13. Vachan Text to Speech
+### 14. Vachan Text to Speech
 Vachan Text to Speech is a very powerful text to speech for TalkBack users.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.vachantexttospeach)
 
 ---
 
-### 14. Vajra TTS
+### 15. Vajra TTS
 High-speed multilingual Text-to-Speech engine and smart accessibility hub.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=com.techassistantforblind.vajratts)
 
 ---
 
-### 15. Vocalizer Voices
+### 16. Vocalizer Voices
 High-quality, human-sounding portfolio of voices across major languages around the world.
 
 * [View on Play Store](https://play.google.com/store/apps/details?id=es.codefactory.vocalizertts)
