@@ -1,0 +1,24 @@
+- name: "Be My Eyes - Helping the blind"
+  category: "Vision"
+  description: "Connects blind and visually impaired individuals with sighted volunteers or advanced AI (Be My AI) for visual assistance through live video calls."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.bemyeyes.bemyeyes"
+
+- name: "Cash Reader: Bill Identifier"
+  category: "Vision"
+  description: "Instantly identifies banknotes and paper currency from a wide range of currencies worldwide using auditory announcements and vibration patterns."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.hayman.cashreader"
+
+- name: "Envision AI"
+  category: "Vision"
+  description: "An award-winning assistive app that uses artificial intelligence to read text, describe scenes, detect colors, scan barcodes, and recognize people."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.letsenvision.envisionai"
+
+- name: "Lazarillo Accessible GPS"
+  category: "Vision"
+  description: "An accessible GPS navigation tool built for blind users, delivering detailed voice notifications about nearby places, street intersections, and transit stops."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.lazarillo"
+
+- name: "MANI (Mobile Aided Note Identifier)"
+  category: "Vision"
+  description: "The Reserve Bank of India's official offline application designed to help visually impaired individuals identify Indian currency denominations."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.rbi.mani"
