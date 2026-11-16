@@ -23,22 +23,67 @@ a {
 }
 
 /* Keyboard and Screen Reader Focus Styles */
-a:focus, a:hover {
+a:focus, a:hover, input:focus {
     text-decoration: underline;
     outline: 3px solid #00FFCC;
     background-color: #1E1E1E;
 }
 
-/* List Item Styles */
+/* Search Box Styles */
+.search-section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    border: 1px solid #333333;
+}
+
+.search-section label {
+    display: block;
+    margin-bottom: 8px;
+    color: #00FFCC;
+}
+
+#app-search-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    font-size: 16px;
+    background-color: #121212;
+    color: #FFFFFF;
+    border: 2px solid #00FFCC;
+    border-radius: 6px;
+}
+
+#app-search-input::placeholder {
+    color: #AAAAAA;
+}
+
+#search-status {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #00FFCC;
+}
+
+/* App Card & List Item Styles */
+.app-card {
+    margin: 15px 0;
+}
+
+.app-meta {
+    color: #CCCCCC;
+    font-size: 0.95em;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 li {
-    margin: 15px 0;
+    margin: 10px 0;
     background: #1E1E1E;
-    padding: 15px;
+    padding: 12px 15px;
     border-radius: 8px;
     border-left: 5px solid #00FFCC;
 }
