@@ -1,0 +1,139 @@
+- name: "A Western Drama"
+  category: "Games"
+  description: "A spaghetti-western audiogame"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.ThreeBit.AWDEng"
+
+- name: "Accessible Board Games"
+  category: "Games"
+  description: "Play classic board games with Screen Readers & Accessibility."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.labs.ludo"
+
+- name: "Accessible Memory"
+  category: "Games"
+  description: "Memory game accessible touching the screen and with switches"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.mouse4all.memory"
+
+- name: "Accessible Multiword"
+  category: "Games"
+  description: "Four accessible brain games to exercise your mind to the fullest!"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.simonclub.multipalabrasgratis"
+
+- name: "Africa Empire"
+  category: "Games"
+  description: "Build your own African empire in this immersive turn-based strategy game."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.africaempire2027"
+
+- name: "Asia Empire"
+  category: "Games"
+  description: "Lead your Asian empire in an empire building turn based strategy war game"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.asiaempire2027"
+
+- name: "Audible Kungfu"
+  category: "Games"
+  description: "Epic Duels - Strategic Turn-Based Action"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.tjxzhd.txwgen2.gp"
+
+- name: "Audio Game Hub"
+  category: "Games"
+  description: "A set of experimental accessible audio games for visually impaired and blind."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.AUT.AudioGameHub"
+
+- name: "Ballyland CosmoBally in Space"
+  category: "Games"
+  description: "Game introducing children, including those who are blind, to the solar system."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.ballyland.cosmobally"
+
+- name: "Blind Cricket"
+  category: "Games"
+  description: "An accessible cricket simulation game featuring clear commentary and intuitive gesture-based batting controls."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.blindcricket.game"
+
+- name: "Blind Cricket Black"
+  category: "Games"
+  description: "Highly compatible cricket game for blinds."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.puransoftware.blindcricketblack"
+
+- name: "Blind Drive"
+  category: "Games"
+  description: "An intense, fast-paced, two-button arcade driving game driven by immersive 3D binaural audio."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.LoFiPeople.BlindDrive"
+
+- name: "ChessBack"
+  category: "Games"
+  description: "Play chess and watch tournaments online."
+  playstore_url: "https://play.google.com/store/apps/details?id=vnspeak.android.chess"
+
+- name: "Cricket Masters: Captain Game"
+  category: "Games"
+  description: "Be the Cricket Coach & win the ODI World Cup 2027"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.ashbhir.clickcrick"
+
+- name: "Endless Tales - RPG"
+  category: "Games"
+  description: "RPG Endless, Evolutive & Immersive"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.cnx.endlesstales"
+
+- name: "Europe Empire"
+  category: "Games"
+  description: "Conquer Europe in a turn-based strategy and tactics war game"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.europeempire2027"
+
+- name: "Frequency Missing"
+  category: "Games"
+  description: "A little adventure game that can be played using sound only."
+  playstore_url: "https://play.google.com/store/apps/details?id=se.his.frequency.missing"
+
+- name: "Glory Frontline"
+  category: "Games"
+  description: "Survive the 3-Min Warzone"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.xzhd.ryzcgo"
+
+- name: "Guess a number - Accessible"
+  category: "Games"
+  description: "Through the clues, discover the secret number!"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.simonclub.adivinaunnumeroaccesible"
+
+- name: "Hand Cricket - Team Battles"
+  category: "Games"
+  description: "Play real-time hand cricket multiplayer and team battles."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.labs.handcricket"
+
+- name: "Latin America Empire"
+  category: "Games"
+  description: "Lead your Latin empire in an empire building turn based strategy war game"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.latinamericaempire2027"
+
+- name: "Magical Artist"
+  category: "Games"
+  description: "Magical Artist: A Fresh Take on Art & Management Simulation!"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.tjxzhd.jhtgjbgzen"
+
+- name: "Middle East Empire"
+  category: "Games"
+  description: "Lead nations in epic warfare. Strategy, diplomacy, and conquest!"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.meegame.middleeastempire"
+
+- name: "RAD: Rise After Destruction"
+  category: "Games"
+  description: "RAD is a ROLE game of turn-based fighting."
+  playstore_url: "https://play.google.com/store/apps/details?id=paconcio.rad"
+
+- name: "Sonar Islands"
+  category: "Games"
+  description: "The real adventures are in your head (phones)."
+  playstore_url: "https://play.google.com/store/apps/details?id=eu.mentalhome.sonarislands"
+
+- name: "TableEx"
+  category: "Games"
+  description: "Accessible board & card games with voice chat for the visually impaired."
+  playstore_url: "https://play.google.com/store/apps/details?id=net.blindgamers.tableex"
+
+- name: "World Diplomat"
+  category: "Games"
+  description: "Embark on a diplomatic journey to impact the world with skills and strategy."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.topdiplomat"
+
+- name: "World Empire"
+  category: "Games"
+  description: "Lead a country to global domination in this epic turn-based strategy game!"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.worldempire2027"
