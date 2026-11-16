@@ -15,7 +15,7 @@ layout: null
     "name": {{ app.name | jsonify }},
     "description": {{ app.description | jsonify }},
     "category": {{ app.category | jsonify }},
-    "size": {{ app.size | jsonify }},
+    "size": {{ app['size'] | jsonify }},
     "version": {{ app.version | jsonify }},
     "playstore_url": {{ app.playstore_url | jsonify }},
     "apk_url": {{ app.apk_url | jsonify }},
