@@ -1,0 +1,24 @@
+- name: "Document Scanner - PDF Creator"
+  category: "OCR"
+  description: "A clean document scanning utility useful for capturing sharp page images to feed into text-to-speech reading engines."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.cv.docscanner"
+
+- name: "Kibo: Accessibility for all"
+  category: "OCR"
+  description: "An inclusive document and book reading tool supporting multiple regional languages, allowing blind users to scan printed pages or digital PDFs."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.trestle.labs.kibo"
+
+- name: "Lookout - Assisted vision"
+  category: "OCR"
+  description: "Google's official computer vision and OCR tool designed for reading documents, packaging text, paper currency, and labels using real-time audio guidance."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal"
+
+- name: "Text Scanner (OCR)"
+  category: "OCR"
+  description: "A high-accuracy, lightweight text grabber that quickly extracts printed text from camera captures or gallery photos."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.peace.TextScanner"
+
+- name: "vDoc - Accessible Document Reader"
+  category: "OCR"
+  description: "An accessible document reading solution tailored for visually impaired users to easily read accessible PDF and text files with TalkBack."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.vdoc.reader"
