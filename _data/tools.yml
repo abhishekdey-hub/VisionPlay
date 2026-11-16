@@ -1,0 +1,24 @@
+- name: "Easy Voice Recorder"
+  category: "Tools"
+  description: "A reliable, high-quality audio recording tool with an uncluttered interface and fully labeled controls for TalkBack."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.digipom.easyvoicerecorder.free"
+
+- name: "Smart AudioBook Player"
+  category: "Tools"
+  description: "A feature-rich audiobook player optimized for seamless listening, bookmark management, and intuitive playback controls."
+  playstore_url: "https://play.google.com/store/apps/details?id=ak.alizandro.smartaudiobookplayer"
+
+- name: "Total Commander - file manager"
+  category: "Tools"
+  description: "A lightweight, completely ad-free file manager with full dual-panel directory navigation and smooth screen reader accessibility."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander"
+
+- name: "Voice Recorder & Voice Memos"
+  category: "Tools"
+  description: "An accessible recording and memo-taking application offering noise reduction, clear audio export, and straightforward playback navigation."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.recorder.voice.audiorecorder"
+
+- name: "Volume Ace Free"
+  category: "Tools"
+  description: "An accessible volume profile and audio manager that lets you fine-tune ringtones, alarms, media, and notification sounds independently."
+  playstore_url: "https://play.google.com/store/apps/details?id=cb.volumeplusfree"
