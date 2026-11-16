@@ -11,39 +11,12 @@ language: en
 
 Welcome to the OCR section. Here you can find and download optical character recognition and text-scanning applications designed to read printed documents, books, and images aloud.
 
-> **Total Available:** 5 OCR Apps
+{% assign sorted_apps = site.data.ocr | sort_natural: "name" %}
+
+> **Total Available:** {{ sorted_apps.size }} OCR Apps
 
 ---
 
-### 1. Document Scanner - PDF Creator
-A clean document scanning utility useful for capturing sharp page images to feed into text-to-speech reading engines.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.cv.docscanner)
-
----
-
-### 2. Kibo: Accessibility for all
-An inclusive document and book reading tool supporting multiple regional languages, allowing blind users to scan printed pages or digital PDFs.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.trestle.labs.kibo)
-
----
-
-### 3. Lookout - Assisted vision
-Google's official computer vision and OCR tool designed for reading documents, packaging text, paper currency, and labels using real-time audio guidance.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal)
-
----
-
-### 4. Text Scanner (OCR)
-A high-accuracy, lightweight text grabber that quickly extracts printed text from camera captures or gallery photos.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.peace.TextScanner)
-
----
-
-### 5. vDoc - Accessible Document Reader
-An accessible document reading solution tailored for visually impaired users to easily read accessible PDF and text files with TalkBack.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.vdoc.reader)
+{% for app in sorted_apps %}
+  {% include app-card.html app=app index=forloop.index %}
+{% endfor %}
