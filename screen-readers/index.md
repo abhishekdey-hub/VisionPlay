@@ -11,73 +11,12 @@ language: en
 
 Welcome to the Screen Readers section. Here you can find and download popular screen reading software and accessibility suites for your devices.
 
-> **Total Available:** 9 Screen Readers
+{% assign sorted_apps = site.data.screen_readers | sort_natural: "name" %}
+
+> **Total Available:** {{ sorted_apps.size }} Screen Readers
 
 ---
 
-### 1. AccessiMind+
-The screen reader solution for android OS.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.sarperarikan.accessimindreader)
-
----
-
-### 2. Android Accessibility Suite (TalkBack)
-Includes TalkBack, Accessibility menu and more.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback)
-
----
-
-### 3. Duy Gör Ekran Okuyucu (HearSee Screen Reader)
-HearSee screen reader and accessibility tool for blind and visually impaired users.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.eray_bolat.hs_screen_reader)
-
----
-
-### 4. Ferda screen reader
-Screen reader and smart navigation for blind and visually impaired users.
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=com.ferda.md)
-
----
-
-### 5. Jieshuo+
-An advanced and highly customizable version of the Commentary Screen Reader with premium multi-language extensions.
-
-* **File Size:** 62 MB
-* **APK Version:** 2026.10.08
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-20261008.apk)
-
----
-
-### 6. Jieshuo Lite
-A lightweight version of the Jieshuo screen reader, optimized for low-end Android devices to ensure smooth performance.
-
-* **File Size:** 20 MB
-* **APK Version:** 2026.10.08
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-lite-20261008.apk)
-
----
-
-### 7. Jieshuo Max
-The ultimate, full-featured edition of the Jieshuo screen reader, packed with all advanced tools and sound schemes.
-
-* **File Size:** 176 MB
-* **APK Version:** 2026.10.08
-* [Download Direct APK](https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-max-20261008.apk)
-
----
-
-### 8. Prudence Screen Reader
-An accessibility tool for helping visually impaired people using Android phones.
-
-* [View on Play store](https://play.google.com/store/apps/details?id=com.prudence.reader)
-
----
-
-### 9. Talk Forward
-Powerful screen reader: custom gestures, braille, AI image descriptions & more
-
-* [View on Play Store](https://play.google.com/store/apps/details?id=eu.appsuite.talkforward)
+{% for app in sorted_apps %}
+  {% include app-card.html app=app index=forloop.index %}
+{% endfor %}
