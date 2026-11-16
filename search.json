@@ -1,0 +1,25 @@
+---
+layout: null
+---
+[
+  {% assign all_apps = "" | split: "" %}
+  {% if site.data.games %}{% assign all_apps = all_apps | concat: site.data.games %}{% endif %}
+  {% if site.data.ocr %}{% assign all_apps = all_apps | concat: site.data.ocr %}{% endif %}
+  {% if site.data.screen_readers %}{% assign all_apps = all_apps | concat: site.data.screen_readers %}{% endif %}
+  {% if site.data.tts %}{% assign all_apps = all_apps | concat: site.data.tts %}{% endif %}
+  {% if site.data.tools %}{% assign all_apps = all_apps | concat: site.data.tools %}{% endif %}
+  {% if site.data.vision %}{% assign all_apps = all_apps | concat: site.data.vision %}{% endif %}
+
+  {% for app in all_apps %}
+  {
+    "name": {{ app.name | jsonify }},
+    "description": {{ app.description | jsonify }},
+    "category": {{ app.category | jsonify }},
+    "size": {{ app.size | jsonify }},
+    "version": {{ app.version | jsonify }},
+    "playstore_url": {{ app.playstore_url | jsonify }},
+    "apk_url": {{ app.apk_url | jsonify }},
+    "downloads": {{ app.downloads | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
