@@ -1,0 +1,40 @@
+<article class="app-card">
+  <h3>{% if include.index %}{{ include.index }}. {% endif %}{{ include.app.name }}</h3>
+  
+  <p class="app-meta">
+    <strong>Category:</strong> {{ include.app.category }}
+    {% if include.app.size %} | <strong>File Size:</strong> {{ include.app.size }}{% endif %}
+    {% if include.app.version %} | <strong>APK Version:</strong> {{ include.app.version }}{% endif %}
+  </p>
+
+  <p>{{ include.app.description }}</p>
+
+  <ul>
+    {% if include.app.playstore_url %}
+      <li>
+        <a href="{{ include.app.playstore_url }}" target="_blank" rel="noopener">
+          View {{ include.app.name }} on Play Store
+        </a>
+      </li>
+    {% endif %}
+
+    {% if include.app.apk_url %}
+      <li>
+        <a href="{{ include.app.apk_url }}" target="_blank" rel="noopener">
+          Download {{ include.app.name }} Direct APK
+        </a>
+      </li>
+    {% endif %}
+
+    {% if include.app.downloads %}
+      {% for dl in include.app.downloads %}
+        <li>
+          <a href="{{ dl.url }}" target="_blank" rel="noopener">
+            {{ dl.label }}
+          </a>
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+</article>
+<hr>
