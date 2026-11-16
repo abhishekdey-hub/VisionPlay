@@ -3,7 +3,7 @@
   
   <p class="app-meta">
     <strong>Category:</strong> {{ include.app.category }}
-    {% if include.app.size %} | <strong>File Size:</strong> {{ include.app.size }}{% endif %}
+    {% if include.app['size'] %} | <strong>File Size:</strong> {{ include.app['size'] }}{% endif %}
     {% if include.app.version %} | <strong>APK Version:</strong> {{ include.app.version }}{% endif %}
   </p>
 
