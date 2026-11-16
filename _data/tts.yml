@@ -1,0 +1,88 @@
+- name: "Acapela TTS Voices"
+  category: "Text-to-Speech"
+  description: "High-quality and natural-sounding voices designed by Acapela Group for enhanced accessibility."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.acapelagroup.android.tts"
+
+- name: "Auto TTS"
+  category: "Text-to-Speech"
+  description: "A highly useful application for multilingual users that automatically switches between different TTS voices based on the language of the text."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.vnspeak.autotts"
+
+- name: "CerePlay"
+  category: "Text-to-Speech"
+  description: "An advanced speech synthesis application providing expressive and clear voices for Android."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.cereproc.cerevoicesapp"
+
+- name: "Easy voice TTS - autoswitcher"
+  category: "Text-to-Speech"
+  description: "An accessible, Smart, and fully stable TTS engine routing application for blind"
+  playstore_url: "https://play.google.com/store/apps/details?id=com.sachinbaria.easyvoice"
+
+- name: "Eloquence TTS"
+  category: "Text-to-Speech"
+  description: "The classic, highly responsive, and popular synthesizer preferred by many screen reader users."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.codefactoryglobal.eloquencetts"
+
+- name: "eSpeak NG"
+  category: "Text-to-Speech"
+  description: "A compact and open-source software speech synthesizer that supports a very large number of languages."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.redzoc.ramees.tts.espeak"
+
+- name: "Indic Hear2Read"
+  category: "Text-to-Speech"
+  description: "Text-to-Speech engines specifically optimized for various Indian regional languages."
+  playstore_url: "https://play.google.com/store/apps/details?id=org.hear2read.indic"
+
+- name: "Multilingual TTS"
+  category: "Text-to-Speech"
+  description: "A handy accessibility tool designed to easily read out text containing multiple languages."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.intu.multilingualtts"
+
+- name: "MultiTTS"
+  category: "Text-to-Speech"
+  description: "An exceptional TTS tool that allows you to assign different voice engines for different languages simultaneously."
+  version: "1.8.3"
+  downloads:
+    - label: "Download Direct APK For 32-Bit Device (110 MB)"
+      url: "https://www.dropbox.com/scl/fi/8es73ygd0vvdxcrxedrc7/MultiTTS_V_1.8.3-32-Bit.apk?rlkey=qp207q5kcnpyshy0kd79t61ui&st=m04xp3pe&dl=1"
+    - label: "Download Direct APK For 64-Bit Device (144 MB)"
+      url: "https://www.dropbox.com/scl/fi/r14f3wh9biaa9ke9cb1kf/MultiTTS_V_1.8.3-64-Bit.apk?rlkey=2fexmewzbjihkh0nh2av3k86t&st=m7ttohma&dl=1"
+
+- name: "Parroglott"
+  category: "Text-to-Speech"
+  description: "An Android text-to-speech engine that speaks with the Ivona voices Amazon ships for its Fire tablets: the classic Ivona voices plenty of us grew up with, like Jacek, Ewa, Maja, Joey and Brian, and the small neural voices Amazon made for VoiceView in 2025, like Ola, Salli and Amy. Joanna comes along from Amazon's Kindle e-readers. That's 65 voices in 29 languages. It works with TalkBack, its forks such as Sandfly, and anything else that uses Android's speech settings."
+  size: "7 MB"
+  version: "0.3.0"
+  apk_url: "https://github.com/Mudb0y/Parroglott/releases/download/v0.3.0/Parroglott-0.3.0.apk"
+
+- name: "RHVoice"
+  category: "Text-to-Speech"
+  description: "A free, fast, and open-source speech synthesizer that works flawlessly on low-end devices."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android"
+
+- name: "Smartvoice"
+  category: "Text-to-Speech"
+  description: "Multilingual speech sinthesizer and TTS engines aggregator for Android that can automatically recognize input text language by its nature and choose an appropriate voice to pronounce it."
+  size: "15 MB"
+  version: "5.1.2"
+  apk_url: "https://github.com/poretsky/SmartVoice5/releases/download/v5.1.2/SmartVoice-5.1.2.apk"
+
+- name: "Speech Recognition and Synthesis from Google"
+  category: "Text-to-Speech"
+  description: "The official, built-in Google engine that powers TalkBack and many other daily applications."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.google.android.tts"
+
+- name: "Vachan Text to Speech"
+  category: "Text-to-Speech"
+  description: "Vachan Text to Speech is a very powerful text to speech for TalkBack users."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.vachantexttospeach"
+
+- name: "Vajra TTS"
+  category: "Text-to-Speech"
+  description: "High-speed multilingual Text-to-Speech engine and smart accessibility hub."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.techassistantforblind.vajratts"
+
+- name: "Vocalizer Voices"
+  category: "Text-to-Speech"
+  description: "High-quality, human-sounding portfolio of voices across major languages around the world."
+  playstore_url: "https://play.google.com/store/apps/details?id=es.codefactory.vocalizertts"
