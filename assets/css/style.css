@@ -94,3 +94,32 @@ hr {
     border-top: 1px solid #333333;
     margin: 20px 0;
 }
+
+/* Skip Link for Screen Readers & Keyboard */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+    background: #00FFCC;
+    color: #121212;
+    padding: 8px 12px;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    left: 10px;
+    outline: 3px solid #FFFFFF;
+}
+
+/* Footer Styles */
+.site-footer {
+    margin-top: 40px;
+    font-size: 0.95em;
+    color: #CCCCCC;
+}
+
+.disclaimer {
+    font-size: 0.9em;
+    color: #AAAAAA;
+}
