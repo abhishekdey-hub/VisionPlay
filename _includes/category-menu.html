@@ -1,0 +1,35 @@
+<nav aria-label="Store Navigation">
+  <details class="category-accordion">
+    <summary><strong>Browse Store &amp; Categories — Tap to Show/Hide</strong></summary>
+    
+    <ul>
+      {% unless page.url == '/' %}
+        <li><a href="{{ '/' | relative_url }}">Home (VisionPlay)</a></li>
+      {% endunless %}
+
+      {% unless page.url contains '/games/' %}
+        <li><a href="{{ '/games/' | relative_url }}">Games ({{ site.data.games.size }})</a></li>
+      {% endunless %}
+
+      {% unless page.url contains '/optical-character-recognition/' %}
+        <li><a href="{{ '/optical-character-recognition/' | relative_url }}">OCR ({{ site.data.ocr.size }})</a></li>
+      {% endunless %}
+
+      {% unless page.url contains '/screen-readers/' %}
+        <li><a href="{{ '/screen-readers/' | relative_url }}">Screen Readers ({{ site.data.screen_readers.size }})</a></li>
+      {% endunless %}
+
+      {% unless page.url contains '/text-to-speech/' %}
+        <li><a href="{{ '/text-to-speech/' | relative_url }}">Text-to-Speech ({{ site.data.tts.size }})</a></li>
+      {% endunless %}
+
+      {% unless page.url contains '/tools/' %}
+        <li><a href="{{ '/tools/' | relative_url }}">Tools ({{ site.data.tools.size }})</a></li>
+      {% endunless %}
+
+      {% unless page.url contains '/vision/' %}
+        <li><a href="{{ '/vision/' | relative_url }}">Vision ({{ site.data.vision.size }})</a></li>
+      {% endunless %}
+    </ul>
+  </details>
+</nav>
