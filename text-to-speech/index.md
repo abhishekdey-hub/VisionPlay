@@ -6,14 +6,19 @@ keywords: tts, text to speech, autotts, easy voice tts, multitts, parroglott, sm
 language: en
 ---
 
-## VisionPlay - Text-to-Speech Engines
-[Home](../)
+{% include category-menu.html %}
+
+# VisionPlay - Text-to-Speech Engines
 
 Welcome to the TTS section. Here you can find and download natural-sounding text-to-speech voice engines to use with your screen readers.
 
 {% assign sorted_apps = site.data.tts | sort_natural: "name" %}
 
-> **Total Available:** {{ sorted_apps.size }} TTS Engines
+<p class="store-stats" role="status">
+  <strong>Total Available:</strong> {{ sorted_apps.size }} TTS Engines (Sorted A&ndash;Z)
+</p>
+
+{% include search-box.html %}
 
 ---
 
