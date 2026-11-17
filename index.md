@@ -18,18 +18,7 @@ Curated accessibility apps, screen readers, TTS engines, and audio games for vis
 
 {% include search-box.html %}
 
-<details class="category-accordion">
-  <summary><strong>Explore Categories (6) — Tap to Show/Hide</strong></summary>
-  
-  <ul>
-    <li><a href="{{ '/games/' | relative_url }}">Games ({{ site.data.games.size }})</a></li>
-    <li><a href="{{ '/optical-character-recognition/' | relative_url }}">OCR ({{ site.data.ocr.size }})</a></li>
-    <li><a href="{{ '/screen-readers/' | relative_url }}">Screen Readers ({{ site.data.screen_readers.size }})</a></li>
-    <li><a href="{{ '/text-to-speech/' | relative_url }}">Text-to-Speech ({{ site.data.tts.size }})</a></li>
-    <li><a href="{{ '/tools/' | relative_url }}">Tools ({{ site.data.tools.size }})</a></li>
-    <li><a href="{{ '/vision/' | relative_url }}">Vision ({{ site.data.vision.size }})</a></li>
-  </ul>
-</details>
+{% include category-menu.html %}
 
 ---
 
