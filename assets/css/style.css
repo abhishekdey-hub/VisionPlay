@@ -187,3 +187,27 @@ hr {
     font-size: 0.9em;
     color: #AAAAAA;
 }
+
+/* Mobile Alignment Fix for Search & Filters */
+@media (max-width: 600px) {
+    .search-input-row {
+        flex-direction: column;
+    }
+
+    #app-search-input,
+    .voice-btn {
+        width: 100%;
+    }
+
+    .filter-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .filter-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px 12px;
+    }
+}
