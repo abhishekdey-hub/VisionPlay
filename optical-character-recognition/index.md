@@ -6,14 +6,19 @@ keywords: ocr, document scanner, text recognition, blind reading, accessibility 
 language: en
 ---
 
-## VisionPlay - OCR Tools
-[Home](../)
+{% include category-menu.html %}
+
+# VisionPlay - OCR Tools
 
 Welcome to the OCR section. Here you can find and download optical character recognition and text-scanning applications designed to read printed documents, books, and images aloud.
 
 {% assign sorted_apps = site.data.ocr | sort_natural: "name" %}
 
-> **Total Available:** {{ sorted_apps.size }} OCR Apps
+<p class="store-stats" role="status">
+  <strong>Total Available:</strong> {{ sorted_apps.size }} OCR Apps (Sorted A&ndash;Z)
+</p>
+
+{% include search-box.html %}
 
 ---
 
