@@ -228,8 +228,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const catFolder = categorySlugMap[app.category] || "";
       shareBtn.setAttribute("data-app-url", baseSiteUrl + catFolder + "#" + slugify(app.name));
 
-      const sep = document.createTextNode(" | ");
-
       const reportLink = document.createElement("a");
       const subject = encodeURIComponent("Broken Link Report: " + app.name);
       const body = encodeURIComponent("Hi Abhishek, the download link for " + app.name + " on VisionPlay is not working.");
@@ -238,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function () {
       reportLink.textContent = "Report Broken Link";
 
       actionLi.appendChild(shareBtn);
-      actionLi.appendChild(sep);
+      actionLi.appendChild(document.createTextNode(" "));
       actionLi.appendChild(reportLink);
       ul.appendChild(actionLi);
 
