@@ -6,9 +6,7 @@ keywords: audio games, blind games, accessible games, talkback games, android ga
 language: en
 ---
 
-<nav aria-label="Breadcrumb">
-  <p><a href="{{ '/' | relative_url }}">&larr; Back to Home</a></p>
-</nav>
+{% include category-menu.html %}
 
 # VisionPlay - Accessible Games
 
