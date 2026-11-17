@@ -1,11 +1,30 @@
-<section aria-label="Search Applications" class="search-section">
-  <label for="app-search-input"><strong>Search Apps & Games:</strong></label>
-  <input 
-    type="search" 
-    id="app-search-input" 
-    placeholder="Type app name, category, or feature (e.g. TalkBack, Cricket, TTS)..." 
-    autocomplete="off"
-  >
+<section aria-label="Search and Filter Applications" class="search-section">
+  <label for="app-search-input"><strong>Search Apps &amp; Games:</strong></label>
+  
+  <div class="search-input-row">
+    <input 
+      type="search" 
+      id="app-search-input" 
+      placeholder="Type app name, category, or feature (e.g. TalkBack, Cricket, TTS)..." 
+      autocomplete="off"
+    >
+    <button type="button" id="voice-search-btn" class="voice-btn" aria-label="Search by Voice" hidden>
+      Voice Search
+    </button>
+  </div>
+
+  <div class="filter-group" role="group" aria-label="Filter applications by download type">
+    <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">
+      All Apps
+    </button>
+    <button type="button" class="filter-btn" data-filter="apk" aria-pressed="false">
+      Direct APK Only
+    </button>
+    <button type="button" class="filter-btn" data-filter="playstore" aria-pressed="false">
+      Play Store Only
+    </button>
+  </div>
+
   <p id="search-status" role="status" aria-live="polite"></p>
   <div id="search-results"></div>
 </section>
