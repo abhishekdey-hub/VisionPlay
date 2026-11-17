@@ -6,14 +6,19 @@ keywords: accessibility tools, screen reader utilities, blind productivity, file
 language: en
 ---
 
-## VisionPlay - Tools
-[Home](../)
+{% include category-menu.html %}
+
+# VisionPlay - Tools
 
 Welcome to the Tools section. Here you can discover practical utility applications, accessible file managers, and audio productivity software designed to streamline everyday smartphone tasks.
 
 {% assign sorted_apps = site.data.tools | sort_natural: "name" %}
 
-> **Total Available:** {{ sorted_apps.size }} Tools
+<p class="store-stats" role="status">
+  <strong>Total Available:</strong> {{ sorted_apps.size }} Tools (Sorted A&ndash;Z)
+</p>
+
+{% include search-box.html %}
 
 ---
 
