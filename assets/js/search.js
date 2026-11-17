@@ -3,10 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const voiceBtn = document.getElementById("voice-search-btn");
   const filterBtns = document.querySelectorAll(".filter-btn");
   const statusEl = document.getElementById("search-status");
+  const clearBtn = document.getElementById("clear-search-btn");
   const resultsEl = document.getElementById("search-results");
 
   let appsData = [];
   let activeFilter = "all";
+  let showAllExplicitly = false;
   const jsonUrl = window.SEARCH_JSON_URL || "/search.json";
 
   // Helper: Category folder map for accurate share URLs from search results
@@ -58,11 +60,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!searchInput || !resultsEl) return;
 
-  // Load search.json
+  // Load search.json and sort A-Z
   fetch(jsonUrl)
     .then(function (response) { return response.json(); })
     .then(function (data) {
-      appsData = data;
+      appsData = data.sort(function (a, b) {
+        return (a.name || "").localeCompare(b.name || "", undefined, { sensitivity: "base" });
+      });
     })
     .catch(function (err) {
       console.error("Search data load error:", err);
@@ -76,14 +80,37 @@ document.addEventListener("DOMContentLoaded", function () {
     return Boolean(app.playstore_url);
   }
 
+  function clearAllResults() {
+    searchInput.value = "";
+    activeFilter = "all";
+    showAllExplicitly = false;
+    resultsEl.innerHTML = "";
+    statusEl.textContent = "";
+    if (clearBtn) clearBtn.hidden = true;
+
+    filterBtns.forEach(function (b) {
+      const isAll = b.getAttribute("data-filter") === "all";
+      b.classList.toggle("active", isAll);
+      b.setAttribute("aria-pressed", isAll ? "true" : "false");
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener("click", function () {
+      clearAllResults();
+      searchInput.focus();
+    });
+  }
+
   function runSearchAndFilter() {
     const query = searchInput.value.trim();
     const qLower = query.toLowerCase();
 
-    // If no query and filter is 'all', clear results
-    if (!query && activeFilter === "all") {
+    // Keep clean only if query is empty, filter is 'all', and user hasn't clicked 'All Apps'
+    if (!query && activeFilter === "all" && !showAllExplicitly) {
       resultsEl.innerHTML = "";
       statusEl.textContent = "";
+      if (clearBtn) clearBtn.hidden = true;
       return;
     }
 
@@ -109,10 +136,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function renderResults(matches, query) {
     resultsEl.innerHTML = "";
+    if (clearBtn) clearBtn.hidden = false;
 
     const filterLabel =
       activeFilter === "apk" ? " (Direct APK)" :
-      activeFilter === "playstore" ? " (Play Store)" : "";
+      activeFilter === "playstore" ? " (Play Store)" :
+      (showAllExplicitly && !query ? " (All Apps A–Z)" : "");
 
     if (matches.length === 0) {
       statusEl.textContent = query
@@ -222,12 +251,20 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Text Input Event
-  searchInput.addEventListener("input", runSearchAndFilter);
+  searchInput.addEventListener("input", function () {
+    if (!searchInput.value.trim() && activeFilter === "all") {
+      showAllExplicitly = false;
+    }
+    runSearchAndFilter();
+  });
 
   // Filter Buttons Event
   filterBtns.forEach(function (btn) {
     btn.addEventListener("click", function () {
       activeFilter = this.getAttribute("data-filter") || "all";
+      if (activeFilter === "all") {
+        showAllExplicitly = true;
+      }
       filterBtns.forEach(function (b) {
         const isSelected = b === btn;
         b.classList.toggle("active", isSelected);
