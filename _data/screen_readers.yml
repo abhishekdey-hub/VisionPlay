@@ -44,6 +44,13 @@
   description: "An accessibility tool for helping visually impaired people using Android phones."
   playstore_url: "https://play.google.com/store/apps/details?id=com.prudence.reader"
 
+- name: "SandFly"
+  category: "Screen Readers"
+  description: "SandFly is a screen reader for Android."
+  size: "183 MB"
+  version: "0.6.0"
+  apk_url: "https://github.com/aaron-gh/SandFly/releases/download/v0.6.0/sandfly.apk"
+
 - name: "Talk Forward"
   category: "Screen Readers"
   description: "Powerful screen reader: custom gestures, braille, AI image descriptions & more"
