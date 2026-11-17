@@ -6,14 +6,19 @@ keywords: screen readers, talkback, jieshuo, accessimind, accessibility tools, a
 language: en
 ---
 
-## VisionPlay - Screen Readers
-[Home](../)
+{% include category-menu.html %}
+
+# VisionPlay - Screen Readers
 
 Welcome to the Screen Readers section. Here you can find and download popular screen reading software and accessibility suites for your devices.
 
 {% assign sorted_apps = site.data.screen_readers | sort_natural: "name" %}
 
-> **Total Available:** {{ sorted_apps.size }} Screen Readers
+<p class="store-stats" role="status">
+  <strong>Total Available:</strong> {{ sorted_apps.size }} Screen Readers (Sorted A&ndash;Z)
+</p>
+
+{% include search-box.html %}
 
 ---
 
