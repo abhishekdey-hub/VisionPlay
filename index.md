@@ -6,28 +6,30 @@ keywords: accessibility, visually impaired, games, screen readers, tts, ocr, too
 language: en
 ---
 
-# VisionPlay - Home
+{% assign total_apps = site.data.games.size | plus: site.data.ocr.size | plus: site.data.screen_readers.size | plus: site.data.tts.size | plus: site.data.tools.size | plus: site.data.vision.size %}
 
-Accessibility related software to meet special needs of visually impaired and blind people.
+# VisionPlay
 
-The applications and tools available on this platform are carefully collected from various trusted websites and official application stores. You can safely explore and download them to enhance your digital accessibility experience.
+Curated accessibility apps, screen readers, TTS engines, and audio games for visually impaired and blind users—collected from trusted sources and official app stores.
+
+<p class="store-stats" role="status">
+  <strong>Store Overview:</strong> 6 Categories &bull; {{ total_apps }} Accessible Apps
+</p>
 
 {% include search-box.html %}
 
----
-
-## Explore Categories
-
-{% assign total_apps = site.data.games.size | plus: site.data.ocr.size | plus: site.data.screen_readers.size | plus: site.data.tts.size | plus: site.data.tools.size | plus: site.data.vision.size %}
-
-* **Quick Overview:** 6 Categories | {{ total_apps }} Accessible Apps
-
-* [Games ({{ site.data.games.size }})](games/)
-* [OCR ({{ site.data.ocr.size }})](optical-character-recognition/)
-* [Screen Readers ({{ site.data.screen_readers.size }})](screen-readers/)
-* [Text-to-Speech ({{ site.data.tts.size }})](text-to-speech/)
-* [Tools ({{ site.data.tools.size }})](tools/)
-* [Vision ({{ site.data.vision.size }})](vision/)
+<details class="category-accordion">
+  <summary><strong>Explore Categories (6) — Tap to Show/Hide</strong></summary>
+  
+  <ul>
+    <li><a href="{{ '/games/' | relative_url }}">Games ({{ site.data.games.size }})</a></li>
+    <li><a href="{{ '/optical-character-recognition/' | relative_url }}">OCR ({{ site.data.ocr.size }})</a></li>
+    <li><a href="{{ '/screen-readers/' | relative_url }}">Screen Readers ({{ site.data.screen_readers.size }})</a></li>
+    <li><a href="{{ '/text-to-speech/' | relative_url }}">Text-to-Speech ({{ site.data.tts.size }})</a></li>
+    <li><a href="{{ '/tools/' | relative_url }}">Tools ({{ site.data.tools.size }})</a></li>
+    <li><a href="{{ '/vision/' | relative_url }}">Vision ({{ site.data.vision.size }})</a></li>
+  </ul>
+</details>
 
 ---
 
@@ -45,11 +47,3 @@ The applications and tools available on this platform are carefully collected fr
 {% else %}
 <p>No recent updates yet.</p>
 {% endif %}
-
----
-
-## Contact & Suggestions
-
-Have a suggestion for a new accessible app or game? We would love to hear from you! Feel free to contact us to suggest new applications.
-
-* **Email Us:** [Abhishekdey297@yahoo.com](mailto:Abhishekdey297@yahoo.com?subject=VisionPlay%20App%20Suggestion)
