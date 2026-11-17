@@ -8,6 +8,13 @@
   description: "Includes TalkBack, Accessibility menu and more."
   playstore_url: "https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback"
 
+- name: "Aru"
+  category: "Screen Readers"
+  description: "Aru Screen Reader is a lightweight and ultra-fast screen reader designed specifically for Android devices. Built with a primary focus on speed and instant responsiveness, Aru ensures zero lag while navigating your phone, making daily smartphone usage smooth and effortless for blind and visually impaired users."
+  size: "40 MB"
+  version: "1.72"
+  apk_url: "https://github.com/leandro-benitez/aru-versiones/releases/download/v1.72/aru-1.72-release.apk"
+
 - name: "Duy Gör Ekran Okuyucu (HearSee Screen Reader)"
   category: "Screen Readers"
   description: "HearSee screen reader and accessibility tool for blind and visually impaired users."
