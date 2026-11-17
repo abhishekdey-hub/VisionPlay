@@ -1,4 +1,4 @@
-<article class="app-card">
+<article class="app-card" id="{{ include.app.name | slugify }}">
   <h3>{% if include.index %}{{ include.index }}. {% endif %}{{ include.app.name }}</h3>
   
   <p class="app-meta">
@@ -35,6 +35,26 @@
         </li>
       {% endfor %}
     {% endif %}
+
+    <li class="card-actions">
+      <button 
+        type="button" 
+        class="share-app-btn" 
+        data-app-name="{{ include.app.name | escape }}" 
+        data-app-desc="{{ include.app.description | escape }}"
+        data-app-url="{{ page.url | absolute_url }}#{{ include.app.name | slugify }}"
+        aria-label="Share {{ include.app.name }}"
+      >
+        Share {{ include.app.name }}
+      </button>
+      | 
+      <a 
+        href="mailto:Abhishekdey297@yahoo.com?subject={{ 'Broken Link Report: ' | append: include.app.name | uri_escape }}&body={{ 'Hi Abhishek, the download link for ' | append: include.app.name | append: ' on VisionPlay is not working.' | uri_escape }}"
+        aria-label="Report broken link for {{ include.app.name }}"
+      >
+        Report Broken Link
+      </a>
+    </li>
   </ul>
 </article>
 <hr>
