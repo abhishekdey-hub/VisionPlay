@@ -108,10 +108,30 @@ a:focus, a:hover, input:focus, button:focus {
     border-color: #00FFCC;
 }
 
-#search-status {
+.search-status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-top: 12px;
+}
+
+#search-status {
+    margin: 0;
     font-weight: bold;
     color: #00FFCC;
+}
+
+.clear-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2A1A1A;
+    color: #FF8888;
+    border: 2px solid #FF8888;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 /* App Card & List Item Styles */
@@ -205,7 +225,8 @@ hr {
         gap: 8px;
     }
 
-    .filter-btn {
+    .filter-btn,
+    .clear-btn {
         width: 100%;
         text-align: center;
         padding: 10px 12px;
