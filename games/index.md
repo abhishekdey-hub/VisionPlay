@@ -6,14 +6,21 @@ keywords: audio games, blind games, accessible games, talkback games, android ga
 language: en
 ---
 
-## VisionPlay - Accessible Games
-[Home](../)
+<nav aria-label="Breadcrumb">
+  <p><a href="{{ '/' | relative_url }}">&larr; Back to Home</a></p>
+</nav>
+
+# VisionPlay - Accessible Games
 
 Welcome to the Games section. Here you can find and download fun, engaging audio games and arcade titles designed to be fully playable with screen readers.
 
 {% assign sorted_apps = site.data.games | sort_natural: "name" %}
 
-> **Total Available:** {{ sorted_apps.size }} Games
+<p class="store-stats" role="status">
+  <strong>Total Available:</strong> {{ sorted_apps.size }} Games (Sorted A&ndash;Z)
+</p>
+
+{% include search-box.html %}
 
 ---
 
