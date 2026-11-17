@@ -6,14 +6,19 @@ keywords: vision, visual assistance, be my eyes, smart navigation, blind ai, acc
 language: en
 ---
 
-## VisionPlay - Vision Assistance
-[Home](../)
+{% include category-menu.html %}
+
+# VisionPlay - Vision Assistance
 
 Welcome to the Vision section. Here you can find smart AI-driven visual interpreters, live human assistance tools, and accessible navigation utilities designed to help you perceive and explore your environment.
 
 {% assign sorted_apps = site.data.vision | sort_natural: "name" %}
 
-> **Total Available:** {{ sorted_apps.size }} Vision Apps
+<p class="store-stats" role="status">
+  <strong>Total Available:</strong> {{ sorted_apps.size }} Vision Apps (Sorted A&ndash;Z)
+</p>
+
+{% include search-box.html %}
 
 ---
 
