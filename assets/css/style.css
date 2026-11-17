@@ -23,13 +23,13 @@ a {
 }
 
 /* Keyboard and Screen Reader Focus Styles */
-a:focus, a:hover, input:focus {
+a:focus, a:hover, input:focus, button:focus {
     text-decoration: underline;
     outline: 3px solid #00FFCC;
-    background-color: #1E1E1E;
+    outline-offset: 2px;
 }
 
-/* Search Box Styles */
+/* Search Box & Voice Search Styles */
 .search-section {
     margin: 20px 0;
     padding: 15px;
@@ -44,8 +44,15 @@ a:focus, a:hover, input:focus {
     color: #00FFCC;
 }
 
+.search-input-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
 #app-search-input {
-    width: 100%;
+    flex: 1;
+    min-width: 220px;
     box-sizing: border-box;
     padding: 12px 15px;
     font-size: 16px;
@@ -59,8 +66,50 @@ a:focus, a:hover, input:focus {
     color: #AAAAAA;
 }
 
+.voice-btn {
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00FFCC;
+    color: #121212;
+    border: 2px solid #00FFCC;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.voice-btn.listening {
+    background-color: #FFCC00;
+    border-color: #FFCC00;
+    color: #121212;
+}
+
+/* Quick Filter Buttons */
+.filter-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.filter-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #121212;
+    color: #FFFFFF;
+    border: 2px solid #555555;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background-color: #00FFCC;
+    color: #121212;
+    border-color: #00FFCC;
+}
+
 #search-status {
-    margin-top: 10px;
+    margin-top: 12px;
     font-weight: bold;
     color: #00FFCC;
 }
@@ -86,6 +135,21 @@ li {
     padding: 12px 15px;
     border-radius: 8px;
     border-left: 5px solid #00FFCC;
+}
+
+.card-actions {
+    border-left-color: #66B2FF;
+}
+
+.share-app-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #00FFCC;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 /* Horizontal Rule Style */
