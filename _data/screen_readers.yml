@@ -32,6 +32,8 @@
   size: "62 MB"
   version: "2026.10.08"
   apk_url: "https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-20261008.apk"
+  github_repo: "nirenr/jieshuo"
+  github_exclude_match: "lite,max"
 
 - name: "Jieshuo Lite"
   category: "Screen Readers"
@@ -39,6 +41,8 @@
   size: "20 MB"
   version: "2026.10.08"
   apk_url: "https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-lite-20261008.apk"
+  github_repo: "nirenr/jieshuo"
+  github_asset_match: "lite"
 
 - name: "Jieshuo Max"
   category: "Screen Readers"
@@ -46,6 +50,8 @@
   size: "176 MB"
   version: "2026.10.08"
   apk_url: "https://github.com/nirenr/jieshuo/releases/download/20261008/jieshuo-max-20261008.apk"
+  github_repo: "nirenr/jieshuo"
+  github_asset_match: "max"
 
 - name: "Prudence Screen Reader"
   category: "Screen Readers"
@@ -58,6 +64,7 @@
   size: "183 MB"
   version: "0.6.0"
   apk_url: "https://github.com/aaron-gh/SandFly/releases/download/v0.6.0/sandfly.apk"
+  github_repo: "aaron-gh/SandFly"
 
 - name: "Talk Forward"
   category: "Screen Readers"
