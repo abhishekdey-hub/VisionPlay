@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Run APK Updater Script
-        run: python scripts/update_apps.py
+        run: python assets/scripts/update_apps.py
 
       - name: Commit and push if updated
         run: |
