@@ -8,17 +8,17 @@ language: en
 
 {% assign total_apps = site.data.games.size | plus: site.data.ocr.size | plus: site.data.screen_readers.size | plus: site.data.tts.size | plus: site.data.tools.size | plus: site.data.vision.size %}
 
+{% include category-menu.html %}
+
 # VisionPlay
 
 Curated accessibility apps, screen readers, TTS engines, and audio games for visually impaired and blind users—collected from trusted sources and official app stores.
 
 <p class="store-stats" role="status">
-  <strong>Store Overview:</strong> 6 Categories &bull; {{ total_apps }} Accessible Apps
+  <strong>Store Overview:</strong> 6 Categories, {{ total_apps }} Accessible Apps
 </p>
 
 {% include search-box.html %}
-
-{% include category-menu.html %}
 
 ---
 
