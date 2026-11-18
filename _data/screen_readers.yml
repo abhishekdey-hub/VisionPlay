@@ -61,10 +61,11 @@
 - name: "SandFly"
   category: "Screen Readers"
   description: "SandFly is a screen reader for Android."
-  size: "1 MB"
+  size: "183 MB"
   version: "0.6.0"
-  apk_url: "https://github.com/aaron-gh/SandFly/releases/download/v0.6.0/sandfly-addon.apk"
+  apk_url: "https://github.com/aaron-gh/SandFly/releases/download/v0.6.0/sandfly.apk"
   github_repo: "aaron-gh/SandFly"
+  github_exclude_match: "addon,wear,play"
 
 - name: "Talk Forward"
   category: "Screen Readers"
