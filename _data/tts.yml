@@ -23,6 +23,14 @@
   description: "The classic, highly responsive, and popular synthesizer preferred by many screen reader users."
   playstore_url: "https://play.google.com/store/apps/details?id=com.codefactoryglobal.eloquencetts"
 
+- name: "eSpeak"
+  category: "Text-to-Speech"
+  description: "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+  size: "10 MB"
+  version: "1.52.0"
+  apk_url: "https://github.com/espeak-ng/espeak-ng/releases/download/1.52.0/espeak-1.52.0-signed.apk"
+  github_repo: "espeak-ng/espeak-ng"
+
 - name: "eSpeak NG"
   category: "Text-to-Speech"
   description: "A compact and open-source software speech synthesizer that supports a very large number of languages."
@@ -48,12 +56,29 @@
     - label: "Download Direct APK For 64-Bit Device (144 MB)"
       url: "https://www.dropbox.com/scl/fi/r14f3wh9biaa9ke9cb1kf/MultiTTS_V_1.8.3-64-Bit.apk?rlkey=2fexmewzbjihkh0nh2av3k86t&st=m7ttohma&dl=1"
 
+- name: "OpenEVV"
+  category: "Text-to-Speech"
+  description: "An open-source Android version of the classic IBM ViaVoice (Eloquence) text-to-speech engine, bringing fast, clear, and highly responsive speech for screen reader users."
+  version: "0.7"
+  github_repo: "Mudb0y/openevv"
+  downloads:
+    - label: "Download Direct APK For 32-Bit Device (10 MB)"
+      url: "https://github.com/Mudb0y/openevv/releases/download/v0.7/openevv-v0.7-android-armeabi-v7a.apk"
+      github_asset_match: "armeabi-v7a"
+    - label: "Download Direct APK For 64-Bit Device (10 MB)"
+      url: "https://github.com/Mudb0y/openevv/releases/download/v0.7/openevv-v0.7-android-arm64-v8a.apk"
+      github_asset_match: "arm64-v8a"
+    - label: "Download Direct APK Universal (15 MB)"
+      url: "https://github.com/Mudb0y/openevv/releases/download/v0.7/openevv-v0.7-android-universal.apk"
+      github_asset_match: "universal"
+
 - name: "Parroglott"
   category: "Text-to-Speech"
   description: "An Android text-to-speech engine that speaks with the Ivona voices Amazon ships for its Fire tablets: the classic Ivona voices plenty of us grew up with, like Jacek, Ewa, Maja, Joey and Brian, and the small neural voices Amazon made for VoiceView in 2025, like Ola, Salli and Amy. Joanna comes along from Amazon's Kindle e-readers. That's 65 voices in 29 languages. It works with TalkBack, its forks such as Sandfly, and anything else that uses Android's speech settings."
   size: "7 MB"
   version: "0.3.0"
   apk_url: "https://github.com/Mudb0y/Parroglott/releases/download/v0.3.0/Parroglott-0.3.0.apk"
+  github_repo: "Mudb0y/Parroglott"
 
 - name: "RHVoice"
   category: "Text-to-Speech"
@@ -66,6 +91,7 @@
   size: "15 MB"
   version: "5.1.2"
   apk_url: "https://github.com/poretsky/SmartVoice5/releases/download/v5.1.2/SmartVoice-5.1.2.apk"
+  github_repo: "poretsky/SmartVoice5"
 
 - name: "Speech Recognition and Synthesis from Google"
   category: "Text-to-Speech"
