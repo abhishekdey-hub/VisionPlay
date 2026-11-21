@@ -12,8 +12,8 @@
   category: "Screen Readers"
   description: "Aru Screen Reader is a lightweight and ultra-fast screen reader designed specifically for Android devices. Built with a primary focus on speed and instant responsiveness, Aru ensures zero lag while navigating your phone, making daily smartphone usage smooth and effortless for blind and visually impaired users."
   size: "37 MB"
-  version: "1.81"
-  apk_url: "https://github.com/leandro-benitez/aru-versiones/releases/download/v1.81/aru-1.81-release.apk"
+  version: "1.82"
+  apk_url: "https://github.com/leandro-benitez/aru-versiones/releases/download/v1.82/aru-1.82-release.apk"
   github_repo: "leandro-benitez/aru-versiones"
 
 - name: "Duy Gör Ekran Okuyucu (HearSee Screen Reader)"
