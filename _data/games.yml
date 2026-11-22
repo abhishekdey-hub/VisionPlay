@@ -38,6 +38,11 @@
   description: "A set of experimental accessible audio games for visually impaired and blind."
   playstore_url: "https://play.google.com/store/apps/details?id=com.AUT.AudioGameHub"
 
+- name: "Baby Adopter"
+  category: "Games"
+  description: "Adopt a baby, care for them, collect items, hunt eggs and play mini-games."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.x2line.android.babyadopter.lite"
+
 - name: "Ballyland CosmoBally in Space"
   category: "Games"
   description: "Game introducing children, including those who are blind, to the solar system."
@@ -68,6 +73,11 @@
   description: "Be the Cricket Coach & win the ODI World Cup 2027"
   playstore_url: "https://play.google.com/store/apps/details?id=com.ashbhir.clickcrick"
 
+- name: "Dice World - 6 Games in One!"
+  category: "Games"
+  description: "Play Farkle, Yatzy & 4 more dice games with friends. TalkBack friendly."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.saddlellc.diceworld"
+
 - name: "Endless Tales - RPG"
   category: "Games"
   description: "RPG Endless, Evolutive & Immersive"
@@ -77,6 +87,11 @@
   category: "Games"
   description: "Conquer Europe in a turn-based strategy and tactics war game"
   playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.europeempire2027"
+
+- name: "FantacyCricket"
+  category: "Games"
+  description: "Audio cricket for blind players. Bat and bowl by vibration, sound and touch."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.fantacycricket.game"
 
 - name: "Frequency Missing"
   category: "Games"
@@ -112,6 +127,11 @@
   category: "Games"
   description: "Lead nations in epic warfare. Strategy, diplomacy, and conquest!"
   playstore_url: "https://play.google.com/store/apps/details?id=com.igindis.meegame.middleeastempire"
+
+- name: "Orange Tree"
+  category: "Games"
+  description: "Orange Tree is a fruit tree care game for people who like to run a virtual farm."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.x2line.android.orangetree"
 
 - name: "RAD: Rise After Destruction"
   category: "Games"
