@@ -99,13 +99,13 @@
   version: "1.8.5"
   github_repo: "Sharib20006/speechflow---android-text-to-speech-app"
   downloads:
-    - label: "Download Direct APK For 32-Bit Device (10 MB)"
+    - label: "Download Direct APK For 32-Bit Device (11 MB)"
       url: "https://github.com/Sharib20006/speechflow---android-text-to-speech-app/releases/download/v1.8.5/SpeechFlow-v1.8.5-armeabi-v7a-release.apk"
       github_asset_match: "armeabi-v7a"
-    - label: "Download Direct APK For 64-Bit Device (10 MB)"
+    - label: "Download Direct APK For 64-Bit Device (11 MB)"
       url: "https://github.com/Sharib20006/speechflow---android-text-to-speech-app/releases/download/v1.8.5/SpeechFlow-v1.8.5-arm64-v8a-release.apk"
       github_asset_match: "arm64-v8a"
-    - label: "Download Direct APK Universal (15 MB)"
+    - label: "Download Direct APK Universal (18 MB)"
       url: "https://github.com/Sharib20006/speechflow---android-text-to-speech-app/releases/download/v1.8.5/SpeechFlow-v1.8.5-universal-release.apk"
       github_asset_match: "universal"
 
