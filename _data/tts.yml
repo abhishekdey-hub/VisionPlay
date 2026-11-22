@@ -93,6 +93,22 @@
   apk_url: "https://github.com/poretsky/SmartVoice5/releases/download/v5.1.2/SmartVoice-5.1.2.apk"
   github_repo: "poretsky/SmartVoice5"
 
+- name: "SpeechFlow TTS"
+  category: "Text-to-Speech"
+  description: "High-performance Android Text-to-Speech (TTS) engine with Eloquence / IBM TTS voice, authentic Hindi & Urdu support, ECI v6.1 engine, and 16 kHz audio for TalkBack & screen readers."
+  version: "1.8.5"
+  github_repo: "Sharib20006/speechflow---android-text-to-speech-app"
+  downloads:
+    - label: "Download Direct APK For 32-Bit Device (10 MB)"
+      url: "https://github.com/Sharib20006/speechflow---android-text-to-speech-app/releases/download/v1.8.5/SpeechFlow-v1.8.5-armeabi-v7a-release.apk"
+      github_asset_match: "armeabi-v7a"
+    - label: "Download Direct APK For 64-Bit Device (10 MB)"
+      url: "https://github.com/Sharib20006/speechflow---android-text-to-speech-app/releases/download/v1.8.5/SpeechFlow-v1.8.5-arm64-v8a-release.apk"
+      github_asset_match: "arm64-v8a"
+    - label: "Download Direct APK Universal (15 MB)"
+      url: "https://github.com/Sharib20006/speechflow---android-text-to-speech-app/releases/download/v1.8.5/SpeechFlow-v1.8.5-universal-release.apk"
+      github_asset_match: "universal"
+
 - name: "Speech Recognition and Synthesis from Google"
   category: "Text-to-Speech"
   description: "The official, built-in Google engine that powers TalkBack and many other daily applications."
@@ -112,3 +128,8 @@
   category: "Text-to-Speech"
   description: "High-quality, human-sounding portfolio of voices across major languages around the world."
   playstore_url: "https://play.google.com/store/apps/details?id=es.codefactory.vocalizertts"
+
+- name: "VoxSherpa TTS"
+  category: "Text-to-Speech"
+  description: "Offline AI TTS & voice generator. Create realistic speech and voiceovers."
+  playstore_url: "https://play.google.com/store/apps/details?id=com.CodeBySonu.VoxSherpa"
