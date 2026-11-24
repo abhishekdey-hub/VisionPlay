@@ -12,8 +12,8 @@
   category: "Screen Readers"
   description: "Aru Screen Reader is a lightweight and ultra-fast screen reader designed specifically for Android devices. Built with a primary focus on speed and instant responsiveness, Aru ensures zero lag while navigating your phone, making daily smartphone usage smooth and effortless for blind and visually impaired users."
   size: "37 MB"
-  version: "1.85"
-  apk_url: "https://github.com/leandro-benitez/aru-versiones/releases/download/v1.85/aru-1.85-release.apk"
+  version: "1.86"
+  apk_url: "https://github.com/leandro-benitez/aru-versiones/releases/download/v1.86/aru-1.86-release.apk"
   github_repo: "leandro-benitez/aru-versiones"
 
 - name: "Duy Gör Ekran Okuyucu (HearSee Screen Reader)"
@@ -50,9 +50,9 @@
 - name: "SandFly"
   category: "Screen Readers"
   description: "SandFly is a screen reader for Android."
-  size: "183 MB"
-  version: "0.6.0"
-  apk_url: "https://github.com/aaron-gh/SandFly/releases/download/v0.6.0/sandfly.apk"
+  size: "194 MB"
+  version: "0.7.0"
+  apk_url: "https://github.com/aaron-gh/SandFly/releases/download/v0.7.0/sandfly.apk"
   github_repo: "aaron-gh/SandFly"
   github_exclude_match: "addon,wear,play"
 
